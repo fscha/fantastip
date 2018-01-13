@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED245D5E2009FB4C0041EE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D5D2009FB4C0041EE47 /* AppDelegate.swift */; };
+		ED245D602009FB4C0041EE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D5F2009FB4C0041EE47 /* ViewController.swift */; };
+		ED245D632009FB4C0041EE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED245D612009FB4C0041EE47 /* Main.storyboard */; };
+		ED245D652009FB4C0041EE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED245D642009FB4C0041EE47 /* Assets.xcassets */; };
+		ED245D682009FB4C0041EE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED245D662009FB4C0041EE47 /* LaunchScreen.storyboard */; };
+		ED245D732009FB4C0041EE47 /* fantastipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D722009FB4C0041EE47 /* fantastipTests.swift */; };
+		ED245D7E2009FB4D0041EE47 /* fantastipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D7D2009FB4D0041EE47 /* fantastipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED245D6F2009FB4C0041EE47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED245D522009FB4C0041EE47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED245D592009FB4C0041EE47;
+			remoteInfo = fantastip;
+		};
+		ED245D7A2009FB4C0041EE47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED245D522009FB4C0041EE47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED245D592009FB4C0041EE47;
+			remoteInfo = fantastip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED245D5A2009FB4C0041EE47 /* fantastip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantastip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED245D5D2009FB4C0041EE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED245D5F2009FB4C0041EE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED245D622009FB4C0041EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED245D642009FB4C0041EE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED245D672009FB4C0041EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED245D692009FB4C0041EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED245D6E2009FB4C0041EE47 /* fantastipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantastipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED245D722009FB4C0041EE47 /* fantastipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantastipTests.swift; sourceTree = "<group>"; };
+		ED245D742009FB4C0041EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED245D792009FB4C0041EE47 /* fantastipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantastipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED245D7D2009FB4D0041EE47 /* fantastipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantastipUITests.swift; sourceTree = "<group>"; };
+		ED245D7F2009FB4D0041EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED245D572009FB4C0041EE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED245D6B2009FB4C0041EE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED245D762009FB4C0041EE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED245D512009FB4C0041EE47 = {
+			isa = PBXGroup;
+			children = (
+				ED245D5C2009FB4C0041EE47 /* fantastip */,
+				ED245D712009FB4C0041EE47 /* fantastipTests */,
+				ED245D7C2009FB4D0041EE47 /* fantastipUITests */,
+				ED245D5B2009FB4C0041EE47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED245D5B2009FB4C0041EE47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED245D5A2009FB4C0041EE47 /* fantastip.app */,
+				ED245D6E2009FB4C0041EE47 /* fantastipTests.xctest */,
+				ED245D792009FB4C0041EE47 /* fantastipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED245D5C2009FB4C0041EE47 /* fantastip */ = {
+			isa = PBXGroup;
+			children = (
+				ED245D5D2009FB4C0041EE47 /* AppDelegate.swift */,
+				ED245D5F2009FB4C0041EE47 /* ViewController.swift */,
+				ED245D612009FB4C0041EE47 /* Main.storyboard */,
+				ED245D642009FB4C0041EE47 /* Assets.xcassets */,
+				ED245D662009FB4C0041EE47 /* LaunchScreen.storyboard */,
+				ED245D692009FB4C0041EE47 /* Info.plist */,
+			);
+			path = fantastip;
+			sourceTree = "<group>";
+		};
+		ED245D712009FB4C0041EE47 /* fantastipTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED245D722009FB4C0041EE47 /* fantastipTests.swift */,
+				ED245D742009FB4C0041EE47 /* Info.plist */,
+			);
+			path = fantastipTests;
+			sourceTree = "<group>";
+		};
+		ED245D7C2009FB4D0041EE47 /* fantastipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED245D7D2009FB4D0041EE47 /* fantastipUITests.swift */,
+				ED245D7F2009FB4D0041EE47 /* Info.plist */,
+			);
+			path = fantastipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED245D592009FB4C0041EE47 /* fantastip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED245D822009FB4D0041EE47 /* Build configuration list for PBXNativeTarget "fantastip" */;
+			buildPhases = (
+				ED245D562009FB4C0041EE47 /* Sources */,
+				ED245D572009FB4C0041EE47 /* Frameworks */,
+				ED245D582009FB4C0041EE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fantastip;
+			productName = fantastip;
+			productReference = ED245D5A2009FB4C0041EE47 /* fantastip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED245D6D2009FB4C0041EE47 /* fantastipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED245D852009FB4D0041EE47 /* Build configuration list for PBXNativeTarget "fantastipTests" */;
+			buildPhases = (
+				ED245D6A2009FB4C0041EE47 /* Sources */,
+				ED245D6B2009FB4C0041EE47 /* Frameworks */,
+				ED245D6C2009FB4C0041EE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED245D702009FB4C0041EE47 /* PBXTargetDependency */,
+			);
+			name = fantastipTests;
+			productName = fantastipTests;
+			productReference = ED245D6E2009FB4C0041EE47 /* fantastipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED245D782009FB4C0041EE47 /* fantastipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED245D882009FB4D0041EE47 /* Build configuration list for PBXNativeTarget "fantastipUITests" */;
+			buildPhases = (
+				ED245D752009FB4C0041EE47 /* Sources */,
+				ED245D762009FB4C0041EE47 /* Frameworks */,
+				ED245D772009FB4C0041EE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED245D7B2009FB4C0041EE47 /* PBXTargetDependency */,
+			);
+			name = fantastipUITests;
+			productName = fantastipUITests;
+			productReference = ED245D792009FB4C0041EE47 /* fantastipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED245D522009FB4C0041EE47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Fernando Schaeffer-Araujo ";
+				TargetAttributes = {
+					ED245D592009FB4C0041EE47 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ED245D6D2009FB4C0041EE47 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED245D592009FB4C0041EE47;
+					};
+					ED245D782009FB4C0041EE47 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED245D592009FB4C0041EE47;
+					};
+				};
+			};
+			buildConfigurationList = ED245D552009FB4C0041EE47 /* Build configuration list for PBXProject "fantastip" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED245D512009FB4C0041EE47;
+			productRefGroup = ED245D5B2009FB4C0041EE47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED245D592009FB4C0041EE47 /* fantastip */,
+				ED245D6D2009FB4C0041EE47 /* fantastipTests */,
+				ED245D782009FB4C0041EE47 /* fantastipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED245D582009FB4C0041EE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED245D682009FB4C0041EE47 /* LaunchScreen.storyboard in Resources */,
+				ED245D652009FB4C0041EE47 /* Assets.xcassets in Resources */,
+				ED245D632009FB4C0041EE47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED245D6C2009FB4C0041EE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED245D772009FB4C0041EE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED245D562009FB4C0041EE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED245D602009FB4C0041EE47 /* ViewController.swift in Sources */,
+				ED245D5E2009FB4C0041EE47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED245D6A2009FB4C0041EE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED245D732009FB4C0041EE47 /* fantastipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED245D752009FB4C0041EE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED245D7E2009FB4D0041EE47 /* fantastipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED245D702009FB4C0041EE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED245D592009FB4C0041EE47 /* fantastip */;
+			targetProxy = ED245D6F2009FB4C0041EE47 /* PBXContainerItemProxy */;
+		};
+		ED245D7B2009FB4C0041EE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED245D592009FB4C0041EE47 /* fantastip */;
+			targetProxy = ED245D7A2009FB4C0041EE47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED245D612009FB4C0041EE47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED245D622009FB4C0041EE47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED245D662009FB4C0041EE47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED245D672009FB4C0041EE47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED245D802009FB4D0041EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED245D812009FB4D0041EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED245D832009FB4D0041EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fantastip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED245D842009FB4D0041EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fantastip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED245D862009FB4D0041EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fantastipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantastip.app/fantastip";
+			};
+			name = Debug;
+		};
+		ED245D872009FB4D0041EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fantastipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantastip.app/fantastip";
+			};
+			name = Release;
+		};
+		ED245D892009FB4D0041EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fantastipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fantastip;
+			};
+			name = Debug;
+		};
+		ED245D8A2009FB4D0041EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fantastipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fantastip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED245D552009FB4C0041EE47 /* Build configuration list for PBXProject "fantastip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED245D802009FB4D0041EE47 /* Debug */,
+				ED245D812009FB4D0041EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED245D822009FB4D0041EE47 /* Build configuration list for PBXNativeTarget "fantastip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED245D832009FB4D0041EE47 /* Debug */,
+				ED245D842009FB4D0041EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED245D852009FB4D0041EE47 /* Build configuration list for PBXNativeTarget "fantastipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED245D862009FB4D0041EE47 /* Debug */,
+				ED245D872009FB4D0041EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED245D882009FB4D0041EE47 /* Build configuration list for PBXNativeTarget "fantastipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED245D892009FB4D0041EE47 /* Debug */,
+				ED245D8A2009FB4D0041EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED245D522009FB4C0041EE47 /* Project object */;
+}
