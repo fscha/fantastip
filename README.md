@@ -10,31 +10,31 @@ Time spent: **12** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ X ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ X ] Settings page to change the default tip percentage.
+* [X] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ X ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ X ] Included splash screen, logo, and icons.
+- [X] Included splash screen, logo, and icons.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/e22pT' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/kZNiJAs.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 This is my first iOS app, so I was not very familiar with Swift or Xcode.
-I also had some issues trying to figure out layout settings, but overall the video tutorial was helpful to get the bulk of the project done.
+I also had some issues trying to figure out layout settings, but overall the video tutorial was very helpful to get the bulk of the project done. I also am not a graphic designer, so it took me a while to come up with a logo for a better UI.
 
 ## License
 
