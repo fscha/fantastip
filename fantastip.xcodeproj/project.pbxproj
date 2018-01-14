@@ -14,6 +14,7 @@
 		ED245D682009FB4C0041EE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED245D662009FB4C0041EE47 /* LaunchScreen.storyboard */; };
 		ED245D732009FB4C0041EE47 /* fantastipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D722009FB4C0041EE47 /* fantastipTests.swift */; };
 		ED245D7E2009FB4D0041EE47 /* fantastipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D7D2009FB4D0041EE47 /* fantastipUITests.swift */; };
+		ED245D8C200AA07E0041EE47 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED245D8B200AA07E0041EE47 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ED245D792009FB4C0041EE47 /* fantastipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantastipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED245D7D2009FB4D0041EE47 /* fantastipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantastipUITests.swift; sourceTree = "<group>"; };
 		ED245D7F2009FB4D0041EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED245D8B200AA07E0041EE47 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		ED245D512009FB4C0041EE47 = {
 			isa = PBXGroup;
 			children = (
+				ED245D8B200AA07E0041EE47 /* SettingsViewController.swift */,
 				ED245D5C2009FB4C0041EE47 /* fantastip */,
 				ED245D712009FB4C0041EE47 /* fantastipTests */,
 				ED245D7C2009FB4D0041EE47 /* fantastipUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				ED245D602009FB4C0041EE47 /* ViewController.swift in Sources */,
 				ED245D5E2009FB4C0041EE47 /* AppDelegate.swift in Sources */,
+				ED245D8C200AA07E0041EE47 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAQ259S8UX;
 				INFOPLIST_FILE = fantastip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastip;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAQ259S8UX;
 				INFOPLIST_FILE = fantastip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stilo.fantastip;
